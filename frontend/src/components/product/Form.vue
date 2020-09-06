@@ -64,9 +64,9 @@
 <script>
 import has from 'lodash/has';
 import { validationMixin } from 'vuelidate';
-import { required } from 'vuelidate/lib/validators';
-import { mapActions } from 'vuex';
-import { mapFields } from 'vuex-map-fields';
+// import { required } from 'vuelidate/lib/validators';
+// import { mapActions } from 'vuex';
+// import { mapFields } from 'vuex-map-fields';
 import InputDate from '../InputDate';
 import { date } from '../../validators/date';
 
