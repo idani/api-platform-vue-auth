@@ -20,7 +20,7 @@ services:
       context: ./
       dockerfile: ./docker/php/Dockerfile
     ports:
-      - "8083:8083" # Roadrunner PHP application server (optional)
+      - "8000:8000" # Roadrunner PHP application server (optional)
     depends_on:
       - db
       #   - redis
