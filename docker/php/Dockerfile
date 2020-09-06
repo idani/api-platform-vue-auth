@@ -61,7 +61,8 @@ RUN pecl channel-update pecl.php.net \
     && echo "extension=redis.so" > /usr/local/etc/php/conf.d/redis.ini \
     && echo "extension=event.so" > /usr/local/etc/php/conf.d/event.ini
 
-RUN wget https://get.symfony.com/cli/installer -O - | bash
+RUN wget https://get.symfony.com/cli/installer -O - | bash \
+    && mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 
 WORKDIR /var/www/html
 
