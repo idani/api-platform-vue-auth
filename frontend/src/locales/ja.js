@@ -1,0 +1,23 @@
+export default {
+    'Submit': '登録',
+    'Reset': 'リセット',
+    'Delete': '削除',
+    'Are you sure you want to delete this item?': 'このレコードを削除してもよいですか?',
+    'No results': 'レコードはありません。',
+    'Close': '閉じる',
+    'Cancel': 'キャンセル',
+    'Updated': '更新',
+    'Field': '失敗',
+    'Value': '値',
+    'Filters': '絞り込み',
+    'Filter': '絞り込み実行',
+    'Data unavailable': 'データは利用できません。',
+    'Loading...': '読込中...',
+    'Deleted': '削除しました',
+    'Please, insert a value bigger than zero!': '1以上の数値を入力してください。',
+    'Please type something': '入力してください。',
+    'Field is required': '要求に失敗しました。',
+    'Records per page:': '1ページの件数:',
+    'name': '名前',
+    'price': '価格'
+};
