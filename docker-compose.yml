@@ -37,7 +37,7 @@ services:
   db:
     # image: mysql:5.7
     # image: mariadb:5.5-trusty
-    image: mariadb/server:10.3
+    image: mariadb:10.5.5
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --max-connections=512
     ports:
       - "3306:3306"
