@@ -1,20 +1,17 @@
-/*
- * Welcome to your app's main JavaScript file!
- *
- * We recommend including the built version of this JavaScript file
- * (and its CSS file) in your base layout (base.html.twig).
- */
+import Vue from 'vue'
+import App from './App.vue'
+import vuetify from './plugins/vuetify';
 
-// any CSS you import will output into a single css file (app.css in this case)
-import '../css/app.css';
+import store from './store';
+import router from './router';
+import i18n from './i18n';
 
-// Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
-// import $ from 'jquery';
+Vue.config.productionTip = false
 
-console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
-
-import Vue from 'vue';
-const app = new Vue({
-    el: '#app',
-    template: '<h1>Hello Vue.js!</h1>',
-});
+new Vue({
+    i18n,
+    router,
+    store,
+    vuetify,
+    render: h => h(App)
+}).$mount('#app')
