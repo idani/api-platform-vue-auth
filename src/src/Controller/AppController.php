@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class AppController extends AbstractController
 {
     /**
-     * @Route("{wildcard}", name="app", requirements={"wildcard"="^(?!build|api|_(profiler|wdt)).*"})
+     * @Route("/app", name="app")
      */
     public function index()
     {

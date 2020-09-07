@@ -12,3 +12,9 @@ import '../css/app.css';
 // import $ from 'jquery';
 
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+
+import Vue from 'vue';
+const app = new Vue({
+    el: '#app',
+    template: '<h1>Hello Vue.js!</h1>',
+});
